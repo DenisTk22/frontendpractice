@@ -8,4 +8,3 @@
     - установка с поддержкой функциональных и классовых компонентов: npm i mobx mobx-react
 
 https://yandex.ru/video/preview/13375604541294298374
-re3fr3

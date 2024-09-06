@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter'
+import Counter from './Components/Counter'
+import TimerView from './Components/TimerView'
+
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <TimerView/>
 
     </div>
   );
