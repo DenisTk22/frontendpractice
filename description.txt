@@ -1,2 +1,8 @@
 project_a:
-    - react app + mobx
+    - react app js + mobx
+    - запуск npm start
+
+project_b_ts
+    - npx create-react-app . --template typescript
+    - запуск npm start
+    - npm i mobx-utils

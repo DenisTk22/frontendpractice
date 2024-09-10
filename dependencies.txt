@@ -1,10 +1,16 @@
-- react приложения
+- react приложения js
     - создание в текущуей папке: npx create-react-app .
     - создание в папке my-app: npx create-react-app my-app
         - переход в папку my-app: cd my-app
     - запуск приложения: npm start
+- react приложения ts
+    - создание в текущуей папке: npx create-react-app . --template typescript
+    - запуск приложения: npm start
 - mobx
     - установка с поддержкой только функциональных компонентов (-lite): npm i mobx mobx-react-lite
-    - установка с поддержкой функциональных и классовых компонентов: npm i mobx mobx-react
+    - установка с поддержкой функциональных и классовых компонентов> npm i mobx mobx-react
+- axios (работа с асинхронными запросами)
+    - установка> npm i axios
+-npm i mobx-utils 
 
 https://yandex.ru/video/preview/13375604541294298374
