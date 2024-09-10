@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import counter from './store/counter';
+import counter from '../store/counter';
 import { observer } from 'mobx-react-lite';
 
 const Counter = observer(() => { // observer() - наблюдатель для перерендеринга
