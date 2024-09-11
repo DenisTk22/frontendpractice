@@ -1,12 +1,14 @@
 import { observer } from "mobx-react-lite"
 import postsStore from "../../store/posts-store";
 import { useEffect } from "react";
+import { useStores } from "../../root-store-context";
 
 export const Wrapper = observer(() => {
-    const { getPostsAction, 
-            posts,
-        // isLoading
-            } = postsStore;
+    // const { getPostsAction, 
+    //         posts,
+    //     // isLoading
+    //         } = postsStore;
+    const {post: {getPostsAction, posts}} = useStores(); //получаем объект где содержатся все наши сторы
 
     useEffect(() => {
         getPostsAction();
@@ -21,7 +23,7 @@ export const Wrapper = observer(() => {
 
     // }
 
-    console.log(posts, 'posts');
+    // console.log(posts, 'posts');
 
     // return (
     //     <>

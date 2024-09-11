@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {spy} from 'mobx'// чтобы дебажить
+
+spy((event) => {
+  if (event.type === 'action') {
+    console.log(event);
+  }
+})
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
